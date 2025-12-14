@@ -2,8 +2,6 @@
 
 A highly optimized Mandelbrot set renderer using NumPy and Numba for CPU parallelization, featuring real-time progress tracking.
 
-![Mandelbrot Example](https://via.placeholder.com/800x450/333/fff?text=Mandelbrot+Example)
-
 ## Features
 - **Fast CPU rendering** using Numba's parallel JIT compilation
 - **Real-time progress bar** with ETA estimation
