@@ -1,2 +1,19 @@
-# numba-Mandelbrot
-Mandelbrot code using the CPU and numba also using jit and is multi thread
+# Fast Mandelbrot Set Renderer
+
+A highly optimized Mandelbrot set renderer using NumPy and Numba for CPU parallelization, featuring real-time progress tracking.
+
+![Mandelbrot Example](https://via.placeholder.com/800x450/333/fff?text=Mandelbrot+Example)
+
+## Features
+- **Fast CPU rendering** using Numba's parallel JIT compilation
+- **Real-time progress bar** with ETA estimation
+- **Efficient memory usage** with NumPy vectorization
+- **Adjustable parameters**: resolution, iterations, zoom region
+- **Clean grayscale output** ready for post-processing
+
+## Installation
+
+```bash
+git clone https://github.com/icannotcodeijuststartmynewaccount/fast-mandelbrot.git
+cd fast-mandelbrot
+pip install -r requirements.txt
