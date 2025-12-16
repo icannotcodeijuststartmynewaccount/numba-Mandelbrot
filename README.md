@@ -8,6 +8,7 @@ A highly optimized Mandelbrot set renderer using NumPy and Numba for CPU paralle
 - **Efficient memory usage** with NumPy vectorization
 - **Adjustable parameters**: resolution, iterations, zoom region
 - **Clean grayscale output** ready for post-processing
+- **New Mandelbrot code** for use in termux or device which cannot support numba (still requires pillow(PIL), NumPy, tqdm, Python 3.x
 
 ## Installation
 
