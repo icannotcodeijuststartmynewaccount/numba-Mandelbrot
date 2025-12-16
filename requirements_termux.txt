@@ -1,0 +1,10 @@
+# requirements_termux.txt
+# Termux-compatible Mandelbrot dependencies
+# NOTE: numba removed - not compatible with Termux/ARM
+
+numpy>=1.20.0
+Pillow>=9.0.0
+tqdm>=4.65.0
+
+# Optional for color rendering
+# matplotlib>=3.5.0  # Large, only if needed
