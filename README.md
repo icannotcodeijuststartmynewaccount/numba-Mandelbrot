@@ -10,7 +10,7 @@ A highly optimized Mandelbrot set renderer using NumPy and Numba for CPU paralle
 - **Clean grayscale output** ready for post-processing
 - **New Mandelbrot code** for use in termux or device which cannot support numba (still requires pillow(PIL), NumPy, tqdm, Python 3.x
 
-## Installation
+## Installation(termux have separate installation method please check the file termux_mandelbrot_setup.sh)
 
 ```bash
 git clone https://github.com/icannotcodeijuststartmynewaccount/fast-mandelbrot.git
